@@ -1,1 +1,2 @@
-# HackTheBox-Writeups
+# HackTheBox Writeups
+## Crypto

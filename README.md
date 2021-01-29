@@ -1,3 +1,3 @@
 # HackTheBox Writeups
 ## Crypto
-[Templed](#cryptography/Templed.pdf)
+[Templed](blob/main/cryptography/Templed.pdf)

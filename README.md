@@ -1,4 +1,4 @@
 # HackTheBox Writeups
 ## Cryptography
-* **Easy
+* Easy
   * [Templed](cryptography/Templed.pdf)

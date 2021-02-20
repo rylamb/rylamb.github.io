@@ -56,4 +56,4 @@ Based on the analysis of the executable, here is what can be deduced:
 
 The full writeup is locked with the flag. [See the full writeup][writeup_url]
 
-[writeup_url]: 
+[writeup_url]: {{site.baseurl}}/writeups/hackthebox/pwn/0xDiablos/You%20know%200xDiablos.pdf

@@ -1,0 +1,46 @@
+---
+layout: post
+title:  "Welcome to Jekyll!"
+date:   2021-02-19 13:46:56 -0600
+categories: jekyll update
+---
+[Test][writeup]
+
+# Templed
+
+Category: Cryptography
+
+Difficulty: Easy
+
+Creator: Xh4H
+
+**Challenge Description:**&quot;I found the following message in a temple, I had the sensation that they were hiding something. Could you help me discover what it was?&quot;
+
+Downloading the archive and unzipping gives the Scroll.png seen below.
+
+![image1]({{site.baseurl}}/writeups/hackthebox/cryptography/Templed/images/Picture1.png)
+
+In the book &quot;The Ciphers of the Monks: A Forgotten Number-notation of the Middle Ages&quot; by David A. King, the author describes the Cistercian numeral system which looks like the cypher in Scroll.png.
+
+![image2]({{site.baseurl}}/writeups/hackthebox/cryptography/Templed/images/Picture2.png)
+
+We can break the cypher by combining symbols from the Cisterian numeral system seen above to create the symbols from our Scroll.png file. This means each symbol represents a numeric value.
+
+![image3]({{site.baseurl}}/writeups/hackthebox/cryptography/Templed/images/Picture4.png)
+
+Continue this conversion for each symbol. Since ASCII uses decimal values to represent human readable symbols, we can write a script to convert the message.
+
+```
+#!/usr/bin/python3
+
+message = "72 84 66 123 77 48 78 107 115 95 107 78 51 119 33 125"
+for value in message.split(" "):
+  print(char(int(value)), end="")
+print("")
+```
+
+Running this script prints out the original decimal values we decoded, followed by the flag!
+
+```HTB{M0Nks_kN3w!}```
+
+[writeup]: {{site.baseurl}}/writeups/hackthebox/cryptography/Templed/Templed.pdf

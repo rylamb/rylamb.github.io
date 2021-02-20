@@ -1,14 +1,22 @@
 ---
 layout: page
 header_title: CTF writeups
-title: CTF Writeups
 permalink: /writeups
 ---
 
-### Binary Exploitation
+## Hack The Box
+<details>
+    <summary><b>Binary Exploitation</b></summary>
+</details>
 
-### Cryptography
-- Easy
-    - [HackTheBox - Templed](./writeups/hackthebox/cryptography/Templed/Templed.md)
+<details>
+    <summary><b>Cryptography</b></summary>
 
-### Reverse Engineering
+Easy
+- [Templed](./writeups/hackthebox/cryptography/Templed/Templed.md)
+</details>
+
+<details>
+    <summary><b>Reverse Engineering</b></summary>
+
+</details>

@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  Templed
 date:   2021-02-19 13:46:56 -0600
-categories: jekyll update
+categories: HackTheBox
 ---
 [Test][writeup]
 

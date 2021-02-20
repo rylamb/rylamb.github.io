@@ -1,6 +1,5 @@
 ---
 layout: post
-title:  Templed
 date:   2021-02-19 13:46:56 -0600
 categories: HackTheBox
 ---
@@ -42,5 +41,3 @@ print("")
 Running this script prints out the original decimal values we decoded, followed by the flag!
 
 ```HTB{M0Nks_kN3w!}```
-
-[writeup]: {{site.baseurl}}/writeups/hackthebox/cryptography/Templed/Templed.pdf

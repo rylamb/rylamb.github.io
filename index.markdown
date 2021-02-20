@@ -4,7 +4,7 @@ title: Writeups
 ---
 
 # Cryptography
-[Templed](./writeups/hackthebox/cryptography/Templed.md)
+[Templed](./writeups/hackthebox/cryptography/Templed/Templed.md)
 
 # Reverse Engineering
 

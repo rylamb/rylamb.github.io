@@ -1,11 +1,13 @@
 ---
 layout: page
-title: Writeups
+header_title: CTF Writeups
+title: CTF Writeups
 ---
 
-# Cryptography
-[Templed](./writeups/hackthebox/cryptography/Templed/Templed.md)
+### Binary Exploitation
 
-# Reverse Engineering
+### Cryptography
+- Easy
+    - [HackTheBox - Templed](./writeups/hackthebox/cryptography/Templed/Templed.md)
 
-# Binary Exploitation
+### Reverse Engineering

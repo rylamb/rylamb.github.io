@@ -1,6 +1,6 @@
 ---
 layout: page
-header_title: CTF Writeups
+header_title: CTF writeups
 permalink: /writeups
 ---
 

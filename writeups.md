@@ -2,6 +2,7 @@
 layout: page
 header_title: CTF Writeups
 title: CTF Writeups
+permalink: /writeups/
 ---
 
 ### Binary Exploitation

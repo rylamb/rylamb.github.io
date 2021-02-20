@@ -1,13 +1,3 @@
 ---
-layout: page
-header_title: CTF Writeups
-title: CTF Writeups
+layout: home
 ---
-
-### Binary Exploitation
-
-### Cryptography
-- Easy
-    - [HackTheBox - Templed](./writeups/hackthebox/cryptography/Templed/Templed.md)
-
-### Reverse Engineering

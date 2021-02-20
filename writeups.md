@@ -1,5 +1,6 @@
 ---
 layout: page
 header_title: stuff
-permalink: /writeups
+title: some other stuff
+permalink: /writeups/
 ---

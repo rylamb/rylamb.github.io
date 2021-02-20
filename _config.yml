@@ -31,7 +31,8 @@ github_username:  johnryanlambert
 linkedin_username: john-ryan-lambert
 
 # Build settings
-theme: minima
+#theme: minima
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
 

@@ -8,6 +8,9 @@ permalink: /writeups
 
 **Binary Exploitation**
 
+- Easy
+    - [You know 0xDiablos](./writeups/hackthebox/pwn/0xDiablos/0xDiablos.md)
+
 **Cryptography**
     
 - Easy

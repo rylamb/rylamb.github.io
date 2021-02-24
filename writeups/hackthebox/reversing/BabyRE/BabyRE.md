@@ -64,4 +64,4 @@ To simplify, this code simply constructs the string [REDACTED] and prints it to 
 
 The full writeup is locked with the flag. [See the full writeup][writeup_url]
 
-[writeup_url]: {{site.baseurl}}/writeups/hackthebox/reversing/BabyRE/BabyRE.pdf
+[writeup_url]: {{site.baseurl}}/writeups/hackthebox/reversing/BabyRE/Baby%20RE.pdf

@@ -21,9 +21,6 @@ If we make the file executable with `chmod +x` and run it, it asks for a key to 
 
 ![image2]({{site.baseurl}}/writeups/hackthebox/reversing/BabyRE/images/Picture2.png)
 
-##
-
-
 ## **The Easy Way**
 
 Running `hexdump -C` shows the readable contents of the file.

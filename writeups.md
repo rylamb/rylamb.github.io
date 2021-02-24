@@ -8,12 +8,11 @@ permalink: /writeups
 
 **Binary Exploitation**
 
-- Easy
-    - [You know 0xDiablos](./writeups/hackthebox/pwn/0xDiablos/0xDiablos.md)
+- [You know 0xDiablos - Easy](./writeups/hackthebox/pwn/0xDiablos/0xDiablos.md)
 
 **Cryptography**
     
-- Easy
-    - [Templed](./writeups/hackthebox/cryptography/Templed/Templed.md)
+- [Templed - Easy](./writeups/hackthebox/cryptography/Templed/Templed.md)
 
 **Reverse Engineering**
+- [BabyRE - Easy](./writeups/hackthebox/reversing/BabyRE/BabyRE.md)

@@ -7,5 +7,5 @@
   * [Templed](https://johnryanlambert.github.io/writeups/hackthebox/cryptography/Templed/Templed.html)
 ## Reverse Engineering
 * Easy
-  * Baby RE (Completed Pending Retirement)
+  * [Baby RE](https://johnryanlambert.github.io/writeups/hackthebox/reversing/BabyRE/BabyRE.html)
 

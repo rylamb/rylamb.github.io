@@ -2,7 +2,7 @@
 layout: post
 title: Templed
 date:   2021-02-19 13:46:56 -0600
-categories: HackTheBox
+categories: HackTheBox crypto
 ---
 
 Category: Cryptography
@@ -27,7 +27,7 @@ We can break the cypher by combining symbols from the Cisterian numeral system s
 
 Continue this conversion for each symbol. Since ASCII uses decimal values to represent human readable symbols, we can write a script to convert the message.
 
-```
+```python
 #!/usr/bin/python3
 
 message = "72 84 66 123 77 48 78 107 115 95 107 78 51 119 33 125"

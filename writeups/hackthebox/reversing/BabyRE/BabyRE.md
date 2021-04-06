@@ -2,7 +2,7 @@
 layout: post
 title: BabyRE
 date:   2021-02-23 13:46:56 -0600
-categories: HackTheBox
+categories: HackTheBox reversing
 ---
 
 Category: Reverse Engineer

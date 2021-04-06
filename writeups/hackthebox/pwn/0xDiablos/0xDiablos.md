@@ -2,7 +2,7 @@
 layout: post
 title: You know 0xDiablos
 date:   2021-02-19 13:46:56 -0600
-categories: HackTheBox
+categories: HackTheBox pwn
 ---
 
 Category: Pwn

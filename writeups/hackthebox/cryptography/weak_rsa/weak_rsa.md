@@ -2,15 +2,14 @@
 layout: post
 title: HackTheBox - Weak RSA (Crypto) (Retired Challenge)
 date: 2021-04-02
-categories: HackTheBox - Crypto
+categories: HackTheBox crypto
 ---
 
 Category: Cryptography
 
 Creator: tomtoump
 
-
-**Overview**
+## Overview
 
 _(DISCLAIMER: This entire lab can be done in one line using the RSA CTF tool ([https://github.com/Ganapati/RsaCtfTool](https://github.com/Ganapati/RsaCtfTool)), but we&#39;re trying to actually learn something, so we&#39;re going to do it without it.)_
 
@@ -18,12 +17,12 @@ Before attempting this challenge it helps to have a better understanding of how 
 
 A key may be deemed weak due to a number of factors. If the value of _e_ is too small or if part of a secret key is known, then it may be susceptible to attacks based on the Coppersmith method, such as Hastad&#39;s broadcast attack. If there is insufficient entropy available in a system for pseudo-random number generation, then _p_ and _q_ may be generated in such a way that results in two different public keys sharing a common factor, in which case factoring can be trivially done using a calculation of the greatest common divisor between the two public keys. In worst case scenarios, insufficient entropy may even result in duplicate sets of keys being created. To avoid insufficient entropy, developers should rely on /dev/random rather than /dev/urandom, as the former blocks when sufficient entropy is not available, or on true random number generators in the form of hardware random number generators. Additionally, RSA keys may be weak if the length of the key isn&#39;t not sufficiently long, increasing the viability of brute force factoring attacks. This will be the approach taken for this challenge.
 
-**Exploitation**
+## Exploitation
 
 Downloading the provided zip gives us _flag.enc_ and _key.pub_. Using the openssl tool we can see the hex values for the public key modulus (_N_) and the exponent (_e_). We also see the length of the key is 1026 bits.
 
 ```
-$opensslrsa-pubin-inkey.pub-text-noout
+$opensslrsa -pubin -in key.pub -text -noout
 
 RSAPublic-Key: (1026 bit)
 Modulus:
@@ -50,7 +49,7 @@ Exponent:
 
 We&#39;ll attempt to factor the public key modulus in order to recreate the private key, which we can then use to decrypt the cipher text. First we&#39;ll need to read in the public key. We&#39;ll use the Pycryptodome library to generate an RSA key object in Python 3. This library will automatically set the modulus and exponent values on the RSA key object.
 
-```
+```python
 key_file = open('key.pub', 'r')
 pub_key = RSA.importKey(key_file.read())
 key_file.close()
@@ -63,7 +62,7 @@ Public key exponent: 68180928631284147212820507192605734632035524131139938618069
 
 Now that we have the public key we can begin factoring the modulus value. To simplify this, we can leverage factordb. By making a call to factordb using the requests library we get back our factors _p_ and _q_ in json format.
 
-```
+```python
 def get_factors(n: int) -> tuple:
     r = requests.get('http://factordb.com/api', params={'query': n})
     r = r.json()
@@ -79,7 +78,7 @@ Q: 28064707897434668850640509471577294090270496538072109622258544167653888581330
 
 With _p_ and _q_ we can calculate _N'_; and the private key (d) outline in the previous section. Python 3.9 simplifies this process by allowing the _math.pow()_ function to accept negative exponents, but we could also calculate the modular multiplicative inverse using the Extended Euclidean algorithm.
 
-```
+```python
 n_prime = (p-1)*(q-1)
 priv_key = pow(pub_key.e, -1, n_prime)
 ```
@@ -91,7 +90,7 @@ Private key: 4421794418847365452851859396829340152189720585134080994559190875781
 
 Next, we retrieve our cipher text and convert it to an integer. We begin by reading the file in as raw bytes, then converting it to a more cleanly formatted hexadecimal string using the binascii library. We then cast the hexadecimal string to an integer so that we can later perform calculations on it.
 
-```
+```python
 def read_cipher_text_as_int() -> int:
     f = open('flag.enc', 'rb')
     cipher = f.read()
@@ -109,7 +108,7 @@ Cipher text: 2937927389308064730433624088653288162874410456248797576583119134217
 
 The last step is to decrypt the cipher text using the formula from the previous section then perform a little bit of string manipulation to translate our message back into bytes.
 
-```
+```python
 m_int = pow(cipher, priv_key, pub_key.n)
 m = f'0{hex(m_int)[2:]}'
 message = bytes.fromhex(m)
@@ -125,8 +124,10 @@ Above we can see the flag embedded in the byte string of our decrypted message.
 Flag: HTB{s1mpl3_Wi3n3rs_4tt4ck}
 ```
 
-**Full Implementation (Python 3.9)**
-```
+## Full Implementation (Python 3.9)
+```python
+#!/usr/bin/python3
+
 import base64
 import binascii
 import requests

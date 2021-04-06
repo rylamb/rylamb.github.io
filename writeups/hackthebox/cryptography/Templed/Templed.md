@@ -9,7 +9,7 @@ Category: Cryptography
 
 Difficulty: Easy
 
-Creator: Xh4H
+Challenge Creator: Xh4H
 
 **Challenge Description:**&quot;I found the following message in a temple, I had the sensation that they were hiding something. Could you help me discover what it was?&quot;
 

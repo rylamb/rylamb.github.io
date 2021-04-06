@@ -9,7 +9,7 @@ Category: Pwn
 
 Difficulty: Easy
 
-Creator: RET2pwn
+Challenge Creator: RET2pwn
 
 
 **Analysis of Protections**

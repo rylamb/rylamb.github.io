@@ -9,7 +9,7 @@ Category: Reverse Engineer
 
 Difficulty: Easy
 
-Creator: Xh4H
+Challenge Creator: Xh4H
 
 **Challenge Description:**&quot;Show us your basic skills! (P.S. There are 4 ways to solve this, are you willing to try them all?)&quot;
 

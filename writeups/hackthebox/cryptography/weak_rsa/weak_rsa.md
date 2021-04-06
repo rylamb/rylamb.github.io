@@ -7,7 +7,7 @@ categories: HackTheBox crypto
 
 Category: Cryptography
 
-Creator: tomtoump
+Challenge Creator: tomtoump
 
 ## Overview
 

@@ -7,6 +7,8 @@ categories: HackTheBox crypto
 
 Category: Cryptography
 
+Difficulty: Easy
+
 Challenge Creator: tomtoump
 
 ## Overview

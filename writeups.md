@@ -1,6 +1,6 @@
 ---
 layout: page
-header_title: CTF Writeups
+header_title: Writeups
 title: CTF Writeups
 permalink: /writeups
 ---
@@ -16,4 +16,4 @@ permalink: /writeups
 - [Templed (Retired)](./writeups/hackthebox/cryptography/Templed/Templed.md)
 
 **Reverse Engineering**
-- [BabyRE](./writeups/hackthebox/reversing/BabyRE/BabyRE.md) -->
+- [BabyRE](./writeups/hackthebox/reversing/BabyRE/BabyRE.md)

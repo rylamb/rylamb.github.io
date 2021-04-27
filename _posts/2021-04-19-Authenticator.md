@@ -77,9 +77,8 @@ Non-debugging symbols:
 ```
 Analyzing the file with Ghidra allows us to look closer at the `checkpin` function using the decompiler feature. With a higher level view, we see that this method iterates the characters of the string `}a:Vh|}a:g}8j=}89gV<p<}:dV8<Vg9}V<9V<:j|{:` and attempts to XOR each character with the unsigned integer value `9`. This function appears to be checking the user input against the encoded pin, exiting prematurely if an invalid match is found.
 
-```
+```c++
 undefined8 checkpin(char *param_1)
-
 {
   size_t sVar1;
   int local_24;

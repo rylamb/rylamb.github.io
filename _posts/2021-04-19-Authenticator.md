@@ -9,10 +9,6 @@ Category: Reverse Engineering
 
 Difficulty: 1/4 stars
 
-## Overview
-
-
-
 ## File Analysis
 After downloading and extracting the file, we can begin by running `file` to better understand what this file is. The result shows that the file is a x86-64 linux unstripped executable.
 ```

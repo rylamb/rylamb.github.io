@@ -1,6 +1,7 @@
 ---
 layout: page
 header_title: Writeups
+title: Writeups
 permalink: /writeups
 ---
 

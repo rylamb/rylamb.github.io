@@ -1,9 +1,10 @@
 ---
 layout: page
 header_title: Writeups
-title: CTF Writeups
 permalink: /writeups
 ---
+
+
 ## Binary Exploitation
 **Hack The Box**
 - [Jeeves (Retired)](./writeups/hackthebox/pwn/jeeves.md)

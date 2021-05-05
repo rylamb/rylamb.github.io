@@ -1,6 +1,6 @@
 {
   "main": {
-    "name": "John R. Lambert",
+    "name": "John Lambert",
     "occupation": "Software Engineer",
     "description": "",
     "image": "profile.png",
@@ -18,11 +18,6 @@
     "resumedownload": "http://timbakerdev.com",
     "featureArticle": "https://eecs.oregonstate.edu/never-stop",
     "social": [
-      {
-        "name": "twitter",
-        "url": "http://twitter.com",
-        "className": "fa fa-twitter"
-      },
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/john-ryan-lambert/",

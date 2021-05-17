@@ -54,9 +54,15 @@
     ],
     "work": [
       {
+        "company": "Workiva",
+        "title": "Software Engineer",
+        "years": "May 2021 - Present",
+        "description": ""
+      },
+      {
         "company": "Principal Financial Group",
         "title": "Software Engineer",
-        "years": "June 2020 - Present",
+        "years": "June 2020 - May 2021",
         "description": ""
       },
       {
@@ -103,7 +109,7 @@
         "title": "CTF Writeups",
         "category": "Collection of CTF writeups and challenges",
         "image": "ctf-icon.png",
-        "url": "https://github.com/johnryanlambert/"
+        "url": "https://github.com/johnryanlambert/CTF_Writeups"
       }
     ]
   },

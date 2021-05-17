@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 
+/*
+* Use image size of 975 x 800 for sizing consistency
+*/
+
 class Portfolio extends Component {
   render() {
 

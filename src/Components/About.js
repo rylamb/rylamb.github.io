@@ -29,7 +29,7 @@ class About extends Component {
             <p>{bio}</p>
             <p>Find out more about my story: <a href={featureArticle}>{featureArticle}</a></p>
             <div className="row">
-               <div className="columns contact-details">
+               {/*<div className="columns contact-details">
                   <h2>Contact Details</h2>
                   <p className="address">
 						   <span>{name}</span><br />
@@ -39,10 +39,10 @@ class About extends Component {
 						   <span>{phone}</span><br />
                      <span>{email}</span>
 					   </p>
-               </div>
+               </div>*/}
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+                     <a href={resumeDownload} className="button" download><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
             </div>

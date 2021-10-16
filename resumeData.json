@@ -4,7 +4,7 @@
     "occupation": "Software Engineer",
     "description": "",
     "image": "profile.png",
-    "bio": "Cyberspace. A consensual hallucination experienced daily by billions of legitimate operators, in every nation, by children being taught mathematical concepts... A graphic representation of data abstracted from banks of every computer in the human system. Unthinkable complexity. Lines of light ranged in the nonspace of the mind, clusters and constellations of data. Like city lights, receding...",
+    "bio": "I was introduced to computers by my parents at a young age. Playing games on 8-inch floppy disks eventually turned into building gaming PCs. Inevitably, I attended college for computer technology where I learned about computer networking and server administration. After a four years of working in IT support and infrastructure I came to appreciate the power of programming. This appreciate led me to return to school in pursuit of a computer science degree. I finalized my computer science degree by completing a capstone where I wrote a DLL injector and a handful of PC game hacks, which spawned my interest in cybersecurity. I am currently working full-time as a software engineer by day, and pursuing a master's degree by night where I continue my passion for learning about all things software, cybersecurity, and malware related.",
     "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
     "email": "youremailhere@gmail.com",
     "phone": "555-555-5555",
@@ -25,7 +25,7 @@
       },
       {
         "name": "github",
-        "url": "http://github.com/johnryanlambert",
+        "url": "http://github.com/rylamb",
         "className": "fa fa-github"
       }
     ]
@@ -36,19 +36,19 @@
       {
         "school": "Georgia Institute of Technology",
         "degree": "M.S. in Computer Science",
-        "graduated": "Expected: 2022",
-        "description": ""
+        "graduated": "August 2020 - Present",
+        "description": "● Intro to Operating Systems (CS6200): Basic operating system support for concurrency and synchronization, resource management, and distributed services involving the use of multithreading (pthreads), inter-process communication (shared memory and message passing using POSIX/SysV), and distributed interactions via RPC (gRPC).\n● Advanced Topics in Malware Analysis (CS6747): Manual and automated static and dynamic techniques to analyze data dependence and control flow of real-world APT malware.\n● Binary Exploitation Lab (CS6265): Application of exploitation techniques involving shellcoding, bypassing security measures (NX/DEP/PIE/ASLR/Canaries), format vulnerabilities, return-oriented programming (ROP), and heap vulnerabilities in the format of a semester long Capture-The-Flag (CTF)."
       },
       {
         "school": "Oregon State University",
         "degree": "B.S. in Computer Science",
-        "graduated": "2020",
+        "graduated": "Awarded: June 2020",
         "description": ""
       },
       {
         "school": "Ball State University",
         "degree": "B.S. in Computer Technology",
-        "graduated": "2014",
+        "graduated": "Awarded: May 2014",
         "description": ""
       }
     ],
@@ -116,12 +116,8 @@
   "testimonials": {
     "testimonials": [
       {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
-      },
-      {
-        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
+        "text": "I had the extreme pleasure of working with John during his time as a System Engineer at Interactive Intelligence / Genesys. John is a highly intelligent, curious, and passionate engineer. He was always willing to put in the effort to truly understand the technologies that he's working with, and even going as far as earning additional college degrees to dedicate himself into his software development career path. If you spend any time talking with John you'll discover just how much knowledge he has to bring to your organization.",
+        "user": "Braden Pitts - Director, Splunk Services Deliver at Kinney Group, Inc."
       }
     ]
   }
